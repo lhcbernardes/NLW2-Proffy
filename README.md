@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./readme/Home.png"/>
-  <br><br>
-</p>
 
 <h1 align="center">Como criar esse projeto do zero</h1> 
 <div align="center">
@@ -35,33 +31,22 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - HTML5 e CSS3
 - NodeJS
 
-## 🎨 Design
-
-Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/)
-
-<table>
-  <tr>
-    <td colspan="2">Desktop</td>
-    <td colspan="2">Mobile</td>
-  </tr>
-  <tr>
-    <td><img src="./readme/preview-web.png" width=300 /></td><td><img src="./readme/Formulário.png" width=300 /></td>
-    <td><img src="./readme/preview-mobile.png" width=180 /></td><td><img src="./readme/Home-mobile.png" width=180 /></td>
-  </tr>
-</table>
-
-
 ## 📥 Executar esse projeto no seu computador
 
-- Clonar Repositório: `git clone https://github.com/dxwebster/NLW2-Proffy.git`
+- Clonar Repositório: `git clone https://github.com/lhcbernardes/NLW2-Proffy.git`
 
-Ir para a pasta 'web' para rodar o front-end, ou ir para pasta 'server' para rodar o back-end:
-
-- Instalar dependências: `yarn install`
+- Abrir o terminal dentro da pasta e digitar? `cd/server`
+- Instalar dependências: `yarn`
+- Rodar o comando: `yarn knex:migrate`
 - Rodar Aplicação: `yarn start`
 
+- Abrir o terminal dentro da pasta e digitar? `cd/web`
+- Instalar dependências: `yarn`
+- Rodar Aplicação: `yarn start`
 
-## 📕 Licença
+- Abrir o terminal dentro da pasta e digitar? `cd/mobile`
+- Instalar dependências: `yarn`
+- Rodar Aplicação: `yarn start`
 
-Todos os arquivos incluídos aqui, incluindo este _README_, estão sob [Licença MIT](./LICENSE).<br>
-Criado com ❤ por [Adriana Lima](https://github.com/dxwebster)
+- (Caso aconteça algum problema nos icones mobile) *Installing all fonts used*
+- Rodar no temrinal: `expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins`
